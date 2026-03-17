@@ -1,0 +1,37 @@
+{
+  "name": "eisland",
+  "author": {
+    "name": "XKun",
+    "url": "https://github.com/XKun-dev"
+  },
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vicons/ionicons5": "^0.13.0",
+    "@vicons/material": "^0.13.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "axios": "^1.13.6",
+    "electron": "^38.7.2",
+    "electron-builder": "^26.0.12",
+    "naive-ui": "^2.43.2",
+    "pinia": "^3.0.4",
+    "sass-embedded": "^1.93.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.6",
+    "vue-router": "^4.6.3",
+    "vue-tsc": "^2.0.26",
+    "xicons": "^1.0.0"
+  },
+  "main": "dist-electron/main.js"
+}
